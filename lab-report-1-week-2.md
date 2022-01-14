@@ -74,5 +74,8 @@ Then sign in.
 
 Look it up.  As I went down a internet rabbit hole, and found out to much to put here.  
 
+![Image](xkcd.png)
+
+
 
 
