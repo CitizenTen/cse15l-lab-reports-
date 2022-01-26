@@ -20,6 +20,8 @@ And you're in!  Or you should be if you haven't deleted the public key in your c
 
 ![Image](Signin.png)
 
+
+# Trying Commands
 You can try some commands to make sure it works, but that's pretty boring, as it's the same as any terminal. 
 
 ![Image](terminal.png)
@@ -88,9 +90,8 @@ Then sign in.
 * Set command under RedDragon software package to run the bash command when button 3 is pressed. 
 * Then add automation to to hit enter 
 * Press button 3 on mouse and it runs!
-* One click sign in.  Magic!
+* One click/button required to sign in.  Magic!
 
-![Image](xkcd.png)
 
 
 
