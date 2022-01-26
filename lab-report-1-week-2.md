@@ -1,7 +1,7 @@
 **How to log into ieng6 for only Connor Pitts.**
 
 
-#Install VS Codium:
+# Install VS Codium:
 
 ![Image](vscode.png)
 
@@ -9,7 +9,7 @@
 * sudo snap install codium --classic
 
 
-#Connecting Online: 
+# Connecting Online: 
 
 $ ssh cse15lwi22aqm@ieng6.ucsd.edu
 
@@ -21,7 +21,7 @@ You can try some commands to make sure it works, but that's pretty boring, as it
 
 ![Image](terminal.png)
 
-#I want new files!!!!  (Or how to move files using scp)
+# I want new files!!!!  (Or how to move files using scp)
 
 $ scp InsertFileName.java cs15lwi22aqm@ieng6.ucsd.edu:~/
 
