@@ -87,8 +87,12 @@ Then sign in.
 * Put any keystrokes or commands you with to run.
 
 * ```Echo ssh cs151wi22aqm@ieng6.ucds.edu```
-
-* Got to red Dragon package 
+* ```Echo add_whatever_command_you_wish_to_run```   
+    * Examples: 
+        * "ls" 
+        * javac fileHere.java;
+        * anything really
+* Next go to red Dragon package 
 
 ![Image](Dragon.jpg)
 
@@ -96,7 +100,7 @@ Then sign in.
 * Under Settings go and create custom command to run bash command when button 3 is pressed. 
 * Then add extra keystrock of enter once bash is run. 
 * Press button 3 on mouse and it runs!
-* One click/button required to sign in.  
+* One click/button required to sign in and then run specified command. 
 * Magic!
 
 
