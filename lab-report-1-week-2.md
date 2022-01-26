@@ -6,12 +6,15 @@
 ![Image](vscode.png)
 
 * Open terminal: 
-* sudo snap install codium --classic
+
+ * ```sudo snap install codium --classic```
+
+ * Or go to the website [VS Codium](https://vscodium.com/)
 
 
 # Connecting Online: 
 
-$ ssh cse15lwi22aqm@ieng6.ucsd.edu
+ ```$ ssh cse15lwi22aqm@ieng6.ucsd.edu```
 
 And you're in!  Or you should be if you haven't deleted the public key in your computer currently! (If you did check out the SSH Keys part)
 
@@ -23,7 +26,7 @@ You can try some commands to make sure it works, but that's pretty boring, as it
 
 # I want new files!!!!  (Or how to move files using scp)
 
-$ scp InsertFileName.java cs15lwi22aqm@ieng6.ucsd.edu:~/
+```$ scp InsertFileName.java cs15lwi22aqm@ieng6.ucsd.edu:~/```
 
 ![Image](MoveFile.png)
 
@@ -31,7 +34,7 @@ $ scp InsertFileName.java cs15lwi22aqm@ieng6.ucsd.edu:~/
 
 on client (your computer)
 
-$ ssh-keygen (generates some keys for you)
+```$ ssh-keygen (generates some keys for you)```
 
 Enter file in which to save the key (/Users/connor/.ssh/id_rsa): /Users/connor/.ssh/id_rsa
 
@@ -50,19 +53,19 @@ insert-string-of-random-letters-and-a-weird-image-here
 
 Now copy to the user account on the server
 
-$ ssh cs15lwi22aqm@ieng6.ucsd.edu
+```$ ssh cs15lwi22aqm@ieng6.ucsd.edu```
 
 password here
 
 I'm in! (now on server)
 
-$ mkdir .ssh
+```$ mkdir .ssh```
 
 $ <logout>
 
 On computer (client)
 
-$ scp /Users/jconnor/.ssh/id_rsa.pub cs15lwi22aqm@ieng6.ucsd.edu:~/
+```$ scp /Users/jconnor/.ssh/id_rsa.pub cs15lwi22aqm@ieng6.ucsd.edu:~/```
 
 .ssh/authorized_keys
 
@@ -72,7 +75,20 @@ Then sign in.
 
 # Optimize remote sign in.
 
-Look it up.  As I went down a internet rabbit hole, and found out to much to put here.  
+
+## Bash! Bash! Bash!
+
+*Set up a bash script
+
+*```touch SaveTime``` 
+
+*Put any keystrokes or commands you with to run.
+
+*```Echo ssh cs151wi22aqm@ieng6.ucds.edu```
+* Set command under RedDragon software package to run the bash command when button 3 is pressed. 
+* Then add automation to to hit enter 
+* Press button 3 on mouse and it runs!
+* One click sign in.  Magic!
 
 ![Image](xkcd.png)
 
