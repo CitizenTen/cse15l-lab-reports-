@@ -16,13 +16,13 @@
 
  ```$ ssh cse15lwi22aqm@ieng6.ucsd.edu```
 
-And you're in!  Or you should be if you haven't deleted the public key in your computer currently! (If you did check out the SSH Keys part)
+* And you're in!  Or you should be if you haven't deleted the public key in your computer currently! (If you did check out the SSH Keys part)
 
 ![Image](Signin.png)
 
 
 # Trying Commands
-You can try some commands to make sure it works, but that's pretty boring, as it's the same as any terminal. 
+* You can try some commands to make sure it works, but that's pretty boring, as it's the same as any terminal. 
 
 ![Image](terminal.png)
 
@@ -34,38 +34,38 @@ You can try some commands to make sure it works, but that's pretty boring, as it
 
 # I'm an idiot and deleted my public keys (SSH Keys)
 
-on client (your computer)
+* On client (your computer)
 
 ```$ ssh-keygen (generates some keys for you)```
 
-Enter file in which to save the key (/Users/connor/.ssh/id_rsa): /Users/connor/.ssh/id_rsa
+* Enter file in which to save the key (/Users/connor/.ssh/id_rsa): /Users/connor/.ssh/id_rsa
 
-Enter passphrase (empty for no passphrase): 
+* Enter passphrase (empty for no passphrase): 
 
-Enter same passphrase again: 
+* Enter same passphrase again: 
 
-Your identification has been saved in /Users/connor/.ssh/id_rsa.
+* Your identification has been saved in /Users/connor/.ssh/id_rsa.
 
-Your public key has been saved in /Users/connor/.ssh/id_rsa.pub. 
+* Your public key has been saved in /Users/connor/.ssh/id_rsa.pub. 
 (NOTE THE PUBLIC, choose the public file)
 
-The key fingerprint is:
+* The key fingerprint is:
 
-insert-string-of-random-letters-and-a-weird-image-here
+    insert-string-of-random-letters-and-a-weird-image-here
 
-Now copy to the user account on the server
+* Now copy to the user account on the server
 
-```$ ssh cs15lwi22aqm@ieng6.ucsd.edu```
+    ```$ ssh cs15lwi22aqm@ieng6.ucsd.edu```
 
-password here
+    * password here
 
-I'm in! (now on server)
+* I'm in! (now on server)
 
 ```$ mkdir .ssh```
 
 ```$ <logout>```
 
-On computer (client)
+* On computer (client)
 
 ```$ scp /Users/jconnor/.ssh/id_rsa.pub cs15lwi22aqm@ieng6.ucsd.edu:~/```
 
