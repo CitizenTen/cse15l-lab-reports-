@@ -63,7 +63,7 @@ I'm in! (now on server)
 
 ```$ mkdir .ssh```
 
-$ <logout>
+```$ <logout>```
 
 On computer (client)
 
