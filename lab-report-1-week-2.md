@@ -14,7 +14,7 @@
 
 # Connecting Online: 
 
- ```$ ssh cse15lwi22aqm@ieng6.ucsd.edu```
+ ```$ ssh cs15lwi22aqm@ieng6.ucsd.edu```
 
 * And you're in!  Or you should be if you haven't deleted the public key in your computer currently! (If you did check out the SSH Keys part)
 
